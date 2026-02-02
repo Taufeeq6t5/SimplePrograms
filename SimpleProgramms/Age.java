@@ -16,7 +16,6 @@ public class Age {
 
         System.out.println("Your age is : "+ age);
 
-
          if(age>=18){
             System.err.println( "You are eligible to vote..");
         }else{
