@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.Scanner;
-
+//importing pakages to analyze the date 
 public class Age {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
