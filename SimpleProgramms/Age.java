@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.Scanner;
-//importing pakages to analyze the date 
+
 public class Age {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -9,9 +9,9 @@ public class Age {
         System.out.println("Enter your date of birth (YYYY-MM-DD) :");
         String dobInput=sc.next();
 
-        LocalDate dob=LocalDate.parse(dobInput);
+        LocalDate dob=LocalDate.parse(dobInput);        //here parse means converting data format into another format that a program can understand and use it.
         LocalDate today=LocalDate.now();
-// p
+
         int age=Period.between(dob,today).getYears();
 
         System.out.println("Your age is : "+ age);
